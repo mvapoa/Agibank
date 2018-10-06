@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  agibank-importer:
+    image: agibank-importer:latest
+    container_name: agibank-importer
+    volumes: 
+      - //c/Users/Andrade/data/in:/root/data/in
+      - //c/Users/Andrade/data/out:/root/data/out
+    environment:
+      ENVIRONMENT_SEPARATOR: /

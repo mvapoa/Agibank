@@ -1,0 +1,12 @@
+spring:
+ application:
+   name: agibank-importer
+
+environment:
+ file:
+  extension: .dat
+  name:
+   out: result.done
+ folder:
+  in: \data\in\
+  out: \data\out\
