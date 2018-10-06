@@ -19,7 +19,7 @@ In order to run the project you'll need to build the docker image. Inside folder
 =====================================================================
 ## Tecnologias Usadas
 Abaixo está a lista das tecnologias usadas para este projeto.
-- Java 8: Os microservices foram criados para rodar usando o Java 8.
+- Java 8: Os micro-serviços foram criados para rodar usando o Java 8.
 - SpringBoot: Usado para criar os micro-serviços.
 - Docker: Usado para executar aplicativos em contêineres e facilitar a implantação e o dimensionamento.
 - Docker Compose: Usado para criar vários aplicativos docker usando um único comando.
